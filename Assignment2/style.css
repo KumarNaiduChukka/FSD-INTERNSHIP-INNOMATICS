@@ -1,0 +1,84 @@
+h1 , h2{
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+    
+}
+.container{
+    width: 1300px;
+    max-width: 1200px;
+    margin: 0 ;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+.Form{
+    background-color: skyblue;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #b3d9ff;
+} 
+
+.list{
+    background-color: #b0c5b6;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+.Details{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+th{
+    background-color: blue;
+    color: white;
+}
+
+th , td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid white;
+}
+
+th{
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+table{
+    text-indent: initial;
+    border-spacing: 2px;
+}
+
+.map{
+    text-align: center;
+    width: 200px;
+}
+
+iframe{
+    width: 100;
+    border-radius: 10px;
+    height: 300px;
+    border: none;
+}
+button{
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+
+

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coman-Directory-Portal-ASS</title>
+    <link rel="stylesheet " href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Comany Directory Portal</h1>
+        <form id="empform">
+            <div class="Form">
+            <label for="fullname">Full Name:</label>
+            <input type="text" name="fullname" id="fullname" required fdprocessedid="epig9s">
+            </div>
+            <div class="Form">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="Form">
+                <label for="Department">Department:</label>
+                <select name="department" id="Department" >
+                    <option value=""></option>
+                    <option value="IT">IT</option>
+                    <option value="HR">HR</option>
+                    <option value="Finance">Finance</option>
+                    <option value="Marketing">Marketing</option>
+                </select>
+            </div>
+            <div class="Form">
+                <label for="ID">Employee ID:</label>
+                <br>
+                <input type="number"  name="Employee ID" id="ID">
+            </div>
+            <div class="Form">
+                <label for="URL">Profile picture URL</label>
+                <input type="url"  name="Profile picture URL" id="URL" required>
+            </div>
+            
+            <button type="submit">Register Employee</button>
+            
+        </form>
+
+        <section class="list">
+            <h2 >Employee List</h2>
+            <ol id="emplist">
+                <li>
+                    <a href="#"> Varma -john@example.com</a>
+                </li>
+                <hr>
+                <li>
+                    <a href="#">jane Smith - jane@example.com</a>
+                </li>
+                <hr>
+            </ol>
+        </section>
+        
+        <section class="Details">
+            <h2>Employee Details </h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th> Name</th>
+                        <th>Employee ID</th>
+                        <th>Department</th>
+                        <th>Profile Picture</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Varma john</td>
+                        <td>12345</td>
+                        <td>IT</td>
+                        <td>
+                            <img src="https://via.placeholder.com/50" alt="John's Profile">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> john Smith</td>
+                        <td> 67890</td>
+                        <td>HR</td>
+                        <td>
+                            <img src="https://via.placeholder.com/50" alt="Jane's Profile">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="map">
+            <h2>Company Location</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.1985006906625!2d78.38741457373287!3d17.498035299610958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb91f3fdf6bde9%3A0x752db86a6ab3be2a!2sInnomatics%20Research%20Labs!5e0!3m2!1sen!2sin!4v1727362730608!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </div>
+</body>
+</html>
